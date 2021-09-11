@@ -55,7 +55,7 @@ You can view how much data is stored in each storage class of your file system u
 
 ### Viewing storage data size in the Amazon EFS console<a name="billing-metric"></a>
 
-The **Metered size** tab on the **File system details** page displays the current metered size of the file system in binary multiples of bytes \(kibibytes, mebibytes, gibibytes, and tebibytes\)\. The metric is emitted every 15 minutes and lets you view your file system's metered size over time\. **Metered size** displays the following information for the file system storage size:
+The **Metered size** tab on the **File system details** page displays the current metered size of the file system in binary multiples of bytes \(kilobytes, megabytes, gigabytes, and terabytes\)\. The metric is emitted every 15 minutes and lets you view your file system's metered size over time\. **Metered size** displays the following information for the file system storage size:
 + **Total size** is the size \(in binary bytes\) of data stored in the file system, including all storage classes\.
 + **Size in Standard** is the size \(in binary bytes\) of data stored in the EFS Standard or EFS One Zone storage class\.
 + **Size in Infrequent Access** is the size \(in binary bytes\) of data stored in the Standard\-IA or One Zone\-IA storage class, depending on whether your file system uses Standard or One Zone storage classes\.
